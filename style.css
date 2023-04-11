@@ -101,6 +101,7 @@ a {
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
+         overflow-y: hidden;
     }
     .nav-list {
       position: absolute;
@@ -2965,7 +2966,7 @@ img.img-fluid {
 .finalização{
     display: flex;
     flex-direction: column;
-    height: 220vh;
+
     overflow: hidden;
     background-color: #0f0f0f;
     }
@@ -3003,9 +3004,7 @@ img.img-fluid {
  **************************************************/
 
 @media screen and (max-width: 768px) {
-  .finalização {
-    height:  440vh;
-  }
+  
 
   .finalização .texto h3 {
     font-size: 6vw;
@@ -3022,9 +3021,7 @@ img.img-fluid {
 }
 
 @media screen and (max-width: 480px) {
-  .finalização {
-    height:  660vh;
-  }
+  
 
   .finalização .texto h3 {
     font-size: 8vw;
