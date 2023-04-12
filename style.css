@@ -1030,6 +1030,7 @@ a.text-primary:hover {
     margin-left: 14px;
     font-size: 2.3rem;
     display: flex;
+    margin-top: 58px;
 }
 
 
@@ -1087,7 +1088,7 @@ a.text-primary:hover {
     font-size: 2.3rem;
 
     display: flex;
-    margin-top: -58px;
+    margin-top: -7px;
 }
 
 img.img-fluid {
@@ -3129,89 +3130,8 @@ img.img-fluid {
         border-radius: 15px;
     }
 }
-@media screen and (max-width: 390px) {
-    .imgages-desenho {
-        height: 563px;
-        width: 372px;
-        margin-top: 64px;
-        box-shadow: 19px 16px 11px 2px rgb(0, 0, 0);
-        border-radius: 15px;
-    }
 
-    .test8 hr {
-        height: 1px;
-        width: 100%;
-        border-radius: 5px;
-        background: #e0d8e5;
-        margin-top: -94px;
-        display: flex;
-    }
-
-    .test10 hr {
-        height: 1px;
-        width: 100%;
-        border-radius: 5px;
-        background: #ffffff;
-        margin-top: -111px;
-        display: flex;
-    }
-
-    .main-content1 h4.main-title1 {
-        margin-left: 14px;
-        font-size: 2.3rem;
-        display: flex;
-        margin-top: -101px;
-    }
-
-    .modal-container {
-        width: 113vh;
-        height: 109px;
-        position: fixed;
-        top: -235px;
-        left: 0;
-        z-index: 99;
-        align-items: center;
-        justify-content: center;
-        display: none;
-    }
-
-    .modal {
-        width: 41%;
-        height: 417%;
-        margin-top: 157px;
-        margin-left: -779px;
-        z-index: 999;
-        min-width: 400px;
-        min-height: 200px;
-        background-color: #282727fe;
-        border-radius: 5px;
-        backdrop-filter: blur(25px);
-        padding: 50px;
-        border-radius: 10px;
-        overscroll-behavior: contain;
-    }
-
-    .modal .text {
-        width: 135%;
-        height: 154%;
-        margin-top: -11px;
-        margin-left: -95px;
-        overflow: auto;
-    }
-
-    .modal h2 {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1.5rem;
-        color: #fff;
-        text-align: justify;
-        width: 321px;
-        margin-left: 216px;
-        margin-top: 5px;
-        
-
-    }
-}
-@media screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
     html {
         width: 104%;
         height: 100%;
@@ -3345,6 +3265,88 @@ img.img-fluid {
     .trending-list .title span {
         font-size: 14px;
         font-weight: 400;
+
+    }
+}
+@media only screen and (max-width: 414px) {
+    .imgages-desenho {
+        height: 563px;
+        width: 372px;
+        margin-top: 64px;
+        box-shadow: 19px 16px 11px 2px rgb(0, 0, 0);
+        border-radius: 15px;
+    }
+
+    .test8 hr {
+        height: 1px;
+        width: 100%;
+        border-radius: 5px;
+        background: #e0d8e5;
+        margin-top: -94px;
+        display: flex;
+    }
+
+    .test10 hr {
+        height: 1px;
+        width: 100%;
+        border-radius: 5px;
+        background: #ffffff;
+        margin-top: -111px;
+        display: flex;
+    }
+
+    .main-content1 h4.main-title1 {
+        margin-left: 14px;
+        font-size: 2.3rem;
+        display: flex;
+        margin-top: -101px;
+    }
+
+    .modal-container {
+        width: 113vh;
+        height: 109px;
+        position: fixed;
+        top: -235px;
+        left: 0;
+        z-index: 99;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .modal {
+        width: 41%;
+        height: 417%;
+        margin-top: 157px;
+        margin-left: -779px;
+        z-index: 999;
+        min-width: 400px;
+        min-height: 200px;
+        background-color: #282727fe;
+        border-radius: 5px;
+        backdrop-filter: blur(25px);
+        padding: 50px;
+        border-radius: 10px;
+        overscroll-behavior: contain;
+    }
+
+    .modal .text {
+        width: 135%;
+        height: 154%;
+        margin-top: -11px;
+        margin-left: -95px;
+        overflow: auto;
+    }
+
+    .modal h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: justify;
+        width: 321px;
+        margin-left: 216px;
+        margin-top: 5px;
+        
 
     }
 }
